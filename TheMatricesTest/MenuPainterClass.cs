@@ -44,7 +44,7 @@ namespace TheMatricesTest
 
             ReadAndWrite.TryIntegerConversion();//Checks user input and converts it to an integer
 
-            int input = PublicVariables.inputInt;
+            int input = PublicVariables.inputInt;          //Variable for user input AFTER conversion
             ReadAndWrite.MatrixValueWriter(1, 1, 0, input);//Fill matrix slot
 
             Console.Write("Second number(1 digit only!):");
